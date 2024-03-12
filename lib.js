@@ -7,7 +7,7 @@ const Fisiks = {
         object.userData.physics = { affedtedByGravity: false };
     },
 
-    update: function(scene, gravity = new Vector3(0, -0.1, 0)){
+    update: function(scene, gravity = new three.Vector3(0, -0.1, 0)){
         scene.traverse(function(object) {
             if(object.userData.physics){
                 if(object.userData.physics.affedtedByGravity){
