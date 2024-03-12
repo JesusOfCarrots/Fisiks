@@ -44,4 +44,3 @@ const Fisiks = {
     }
 };
 
-export default Fisiks;
