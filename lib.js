@@ -1,4 +1,4 @@
-const { Vector3, Box3 } = require("three");
+import { Vector3 } from 'three';
 
 const Fisiks = {
     addPhysicsTo: function(object){
