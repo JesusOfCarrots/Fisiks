@@ -1,6 +1,3 @@
-import { Vector3 } from 'https://raw.githubusercontent.com/mrdoob/three.js/dev/src/math/Vector3.js';
-import { Box3 } from 'https://raw.githubusercontent.com/mrdoob/three.js/dev/src/math/Box3.js';
-
 const Fisiks = {
     addPhysicsTo: function(object){
         object.userData.physics = { affedtedByGravity: true };
