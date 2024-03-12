@@ -1,5 +1,3 @@
-import * as THREE from 'three';
-
 const Fisiks = {
     addPhysicsTo: function(object){
         object.userData.physics = { affedtedByGravity: true };
