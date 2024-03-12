@@ -7,7 +7,7 @@ const Fisiks = {
         object.userData.physics = { affedtedByGravity: false };
     },
 
-    update: function(scene, gravity = new three.Vector3(0, -0.1, 0)){
+    update: function(scene, gravity = new THREE.Vector3(0, -0.1, 0)){
         scene.traverse(function(object) {
             if(object.userData.physics){
                 if(object.userData.physics.affedtedByGravity){
@@ -29,8 +29,8 @@ const Fisiks = {
     },
 
     checkCollision: function(object1, object2){
-        const box1 = new three.Box3().setFromObject(object1);
-        const box2 = new three.Box3().setFromObject(object2);
+        const box1 = new THREE.Box3().setFromObject(object1);
+        const box2 = new THREE.Box3().setFromObject(object2);
 
         if (box1.intersectsBox(box2)) {
             // Handle collision here, for now just stop the movement
