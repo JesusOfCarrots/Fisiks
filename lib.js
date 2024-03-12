@@ -1,4 +1,4 @@
-const { Vector3 } = require("three");
+const { Vector3, Box3 } = require("three");
 
 const Fisiks = {
     addPhysicsTo: function(object){
