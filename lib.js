@@ -1,15 +1,15 @@
-import { Vector3, Box3 } from "three";
+const { Vector3 } = require("three");
 
 const Fisiks = {
-    export addPhysicsTo: function(object){
+    addPhysicsTo: function(object){
         object.userData.physics = { affedtedByGravity: true };
     },
 
-    export makeCollidable: function(object){
+    makeCollidable: function(object){
         object.userData.physics = { affedtedByGravity: false };
     },
 
-    export update: function(scene, gravity = new Vector3(0, -0.1, 0)){
+    update: function(scene, gravity = new Vector3(0, -0.1, 0)){
         scene.traverse(function(object) {
             if(object.userData.physics){
                 if(object.userData.physics.affedtedByGravity){
