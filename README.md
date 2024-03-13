@@ -9,7 +9,7 @@ Start by adding three.js to your html file before adding your main JavaScript co
 
     <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
 
-and then add Fisis.js
+and then add Fisiks.js
 
     <script src="https://cdn.jsdelivr.net/gh/JesusOfCarrots/Fisiks@v0.1.5/lib.js"></script>
 
@@ -51,7 +51,8 @@ As a final step you need to update the physics in the animate/render function:
   
 
  - Currently the collisions are only working for 3D Boxes 
- - 
+ - Asigning other mass does not impact the fall speed (?)
+ - falling speed does nit increese over time 
 
 
 # Donations 
