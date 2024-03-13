@@ -1,6 +1,6 @@
 # Fisiks.js 
 
-A small [Three.js](Threejs.org) library to add simple physics to Bodies.
+A small [Three.js](https://threejs.org) library to add simple physics to Bodies.
 You can make Objects affected by Physics or only make them collidable with other objects.
 
 # Start 
