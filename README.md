@@ -5,7 +5,7 @@ You can make Objects affected by Physics or only make them collidable with other
 
 # Start 
 
-Start by adding three.js to your html file before adding your main JavaScript code:
+Start by adding three.js to your html file before adding your JavaScript code:
 
     <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
 
@@ -52,7 +52,8 @@ As a final step you need to update the physics in the animate/render function:
 
  - Currently the collisions are only working for 3D Boxes 
  - Asigning other mass does not impact the fall speed (?)
- - falling speed does nit increese over time 
+ - falling speed does not increese over time
+ - Else statement when checking for collision 
 
 
 # Donations 
