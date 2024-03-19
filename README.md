@@ -46,9 +46,9 @@ As a final step you need to update the physics in the animate/render function:
         // . . . 
     }
 
-You can also increese the falling speed with providing a second arguemnt in the update function: 
+You can also increese the falling speed with providing a second argument in the update function: 
 
-     `Fisiks.update(scene, new THREE.Vector3(0, -0.1, 0);`
+     Fisiks.update(scene, new THREE.Vector3(0, -0.1, 0);
 
 # ToDo
 
