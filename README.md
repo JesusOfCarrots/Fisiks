@@ -50,10 +50,10 @@ As a final step you need to update the physics in the animate/render function:
 
   
 
- - Currently the collisions are only working for 3D Boxes 
  - Asigning other mass does not impact the fall speed (?)
  - falling speed does not increese over time
- - Else statement when checking for collision 
+ - Else statement when checking for collision
+ - When Physics are activated and then deactivatet and then the position changes (not colliding with anything) and Physics are active again, the cube doesn't fall. Probably the same issue as that affectedByGravity does not refresh.
 
 
 # Donations 
